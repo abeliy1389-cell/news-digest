@@ -18,7 +18,7 @@ TO_EMAIL = os.environ.get('TO_EMAIL')
 
 SPREADSHEET_NAME = "News_Digest"
 SERVICE_ACCOUNT_FILE = 'credentials.json'
-TOPIC = "новости"
+TOPIC = "news"
 DAYS_BACK = 1
 MAX_ARTICLES = 10
 
