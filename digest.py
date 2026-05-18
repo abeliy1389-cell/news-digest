@@ -18,9 +18,9 @@ TO_EMAIL = os.environ.get('TO_EMAIL')
 
 SPREADSHEET_NAME = "News_Digest"
 SERVICE_ACCOUNT_FILE = 'credentials.json'
-TOPIC = "news"
+TOPIC = "politics OR economics OR technology OR AI OR inventions"
 DAYS_BACK = 1
-MAX_ARTICLES = 10
+MAX_ARTICLES = 15
 
 # ===== ПОДКЛЮЧЕНИЕ К GOOGLE SHEETS =====
 def init_google_sheet():
@@ -105,7 +105,7 @@ def send_email(articles):
     html_body += """
     </ol>
     <hr>
-    <small>Дайджест сгенерирован автоматически.</small>
+    <small>Хорошего дня!❤️</small>
     </body>
     </html>
     """
