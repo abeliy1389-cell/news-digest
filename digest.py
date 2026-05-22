@@ -18,8 +18,8 @@ TO_EMAIL = os.environ.get('TO_EMAIL')
 
 SPREADSHEET_NAME = "News_Digest"
 SERVICE_ACCOUNT_FILE = 'credentials.json'
-TOPIC = "politics OR economics OR technology OR AI OR inventions"
-DAYS_BACK = 1
+TOPIC = "politics OR economics OR technology OR inventions"
+DAYS_BACK = 3
 MAX_ARTICLES = 15
 
 # ===== ПОДКЛЮЧЕНИЕ К GOOGLE SHEETS =====
